@@ -94,6 +94,15 @@ main{
     margin-left: 25px;
 }
 
+.btn-pegar{
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
 .copiar{
     background-color:black;
     border: 1px solid black;
