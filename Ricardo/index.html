@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <script src="/Ricardo/script.js" type="text/javascript"></script>
+    <title>Encriptador de Mensajes</title>
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Encriptador de Mensajes</h1>
+        <img class="logo" src="/Ricardo/Imagenes/leo.png">
+    </header>
+    <main>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+        <section class="divmensaje">
+            <textarea id="mensajeingresado"  class="mensajeingresado" cols="50" rows="10" placeholder="Ingrese su Mensaje"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptado()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptado()">Desencriptar</button>
+                <button onclick="btnPegar()">Pegar</button>
+            </div>
+        </section>
+        <section class="divencriptado">
+            <textarea id="mensajeencriptado" class="mensajeencriptado" cols="30" rows="10" placeholder="Texto Encriptado"></textarea>
+            <div>
+                <button class="copiar" onclick="btnCopiar()" >Copiar</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

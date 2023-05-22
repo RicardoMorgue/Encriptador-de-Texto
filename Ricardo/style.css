@@ -1,0 +1,105 @@
+*{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+body{
+    height: 100vh;
+    background: #9D50BB;
+    background: -webkit-linear-gradient(to bottom, #6E48AA, #9D50BB);
+    background: linear-gradient(to bottom, #6E48AA, #9D50BB);
+}
+
+.encabezado, h1{
+    font-weight: bold;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    transform: scale(1);
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.divmensaje{
+    margin-left: 50px;
+}
+
+.mensajeingresado{
+    /* background-color: rgba(255, 255, 255, .0);
+    color: black; */
+    text-transform: lowercase;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+::placeholder{
+    color: black;
+}
+    .mensajeingresado:focus {
+        outline: none;
+    }
+
+.divencriptado{
+    margin-left: 250px;
+}
+
+.mensajeencriptado{
+    /* background-color: rgba(255, 255, 255, .0);
+    color: black; */
+    background-image: url("/Ricardo/Imagenes/");
+    background-size: 200px 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-transform: lowercase;
+}
+.mensajeencriptado:focus{
+    outline: none;
+}
+
+.informacion{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px; 
+}
+
+.botones{
+    display: flex;
+}
+
+.btn-encriptar{
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.copiar{
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 27px;
+}
